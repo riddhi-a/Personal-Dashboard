@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Responsive personal Dashboard </title>
+    <link rel="stylesheet" href="stylesf.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="sidebar">
+    
+      <ul class="nav-links">
+        <li>
+          <a href="#" class="active">
+            <i class='bx bx-grid-alt' ></i>
+            <span class="links_name">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-list-ul' ></i>
+            <span class="links_name">To-Do List</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-pie-chart-alt-2' ></i>
+            <span class="links_name">Budget Tracker</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-bell"></i>
+            <span class="links_name">Notifications and Emails</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-dumbbell"></i>
+            <span class="links_name">Fitness tracker</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-calendar"></i>
+            <span class="links_name">Calendar</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-drink"></i>
+            <span class="links_name">Water Intake</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-sleepy"></i>
+            <span class="links_name">Sleep tracker</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-cog' ></i>
+            <span class="links_name">Setting</span>
+          </a>
+        </li>
+        <li class="log_out">
+          <a href="#">
+            <i class='bx bx-log-out'></i>
+            <span class="links_name">Log out</span>
+          </a>
+        </li>
+      </ul>
+  </div>
+  <section class="home-section">
+    <nav>
+      <div class="sidebar-button">
+        <i class='bx bx-menu sidebarBtn'></i>
+        <span class="dashboard">Dashboard</span>
+      </div>
+      <div class="search-box">
+        <input type="text" placeholder="Search...">
+        <i class='bx bx-search' ></i>
+      </div>
+      <div class="profile-details">
+        <img src="images/profile.jpg" alt="">
+        <span class="admin_name">cs22b081</span>
+        <i class='bx bx-chevron-down' ></i>
+      </div>
+    </nav>
+
+    <div class="home-content">
+      <div class="overview-boxes">
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Water Intake</div>
+            <div class="number">4 litres</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">Up from yesterday</span>
+            </div>
+          </div>
+          <i class="bx bx-droplet"></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Hours Slept</div>
+            <div class="number">5 </div>
+            <div class="indicator">
+              <i class='bx bx-down-arrow-alt down'></i>
+              <span class="text">Down From Yesterday</span>
+            </div>
+          </div>
+          <i class="bx bx-bed"></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Calories burnt</div>
+            <div class="number">300</div>
+            <div class="indicator">
+              <i class='bx bx-down-arrow-alt down'></i>
+              <span class="text">Down From Yesterday</span>
+            </div>
+          </div>
+          <i class="bx bx-run icon"></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Money spent</div>
+            <div class="number">1000</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">Up from yesterday</span>
+            </div>
+          </div>
+           <i class='bx bx-coin-stack' ></i>
+        </div>
+      </div>
+
+      <div class="todo-box">
+        <div class="tasks box">
+          <div class="title">Upcoming tasks</div>
+          <div class="tasks-details">
+            <ul class="details">
+              <li class="topic">Date</li>
+              <li><a href="#">01 Jun 2023</a></li>
+              <li><a href="#">03 Jun 2023</a></li>
+              <li><a href="#">03 Jun 2023</a></li>
+              <li><a href="#">03 Jun 2023</a></li>
+              <li><a href="#">04 Jun 2023</a></li>
+  
+            </ul>
+            <ul class="details">
+            <li class="topic">Tasks</li>
+            <li><a href="#">CS1200 Tutorial</a></li>
+            <li><a href="#">CS1200 Assignment</a></li>
+            <li><a href="#">Family function</a></li>
+            <li><a href="#">Compensatory workshop</a></li>
+            <li><a href="#">LAN repair</a></li>
+            
+          </ul>
+          <ul class="details">
+            <li class="topic">Status</li>
+            <li><a href="#">Pending</a></li>
+            <li><a href="#">Pending</a></li>
+            <li><a href="#">Pending</a></li>
+            <li><a href="#">Pending</a></li>
+            <li><a href="#">Pending</a></li>
+          </ul>
+          <ul class="details">
+            <li class="topic">Time</li>
+            <li><a href="#">1 p.m. due</a></li>
+            <li><a href="#">11 p.m. due</a></li>
+            <li><a href="#">4 p.m. to 8 p.m.</a></li>
+            <li><a href="#">8 a.m. to 10:30 p.m.</a></li>
+            <li><a href="#">NA</a></li>
+          </ul>
+          </div>
+          <div class="button">
+            <a href="#">See All</a>
+          </div>
+        </div>
+        <div class="feed box">
+          <div class="title">News Feed</div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+   let sidebar = document.querySelector(".sidebar");
+let sidebarBtn = document.querySelector(".sidebarBtn");
+sidebarBtn.onclick = function() {
+  sidebar.classList.toggle("active");
+  if(sidebar.classList.contains("active")){
+  sidebarBtn.classList.replace("bx-menu" ,"bx-menu-alt-right");
+}else
+  sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+}
+ </script>
+
+</body>
+</html>
